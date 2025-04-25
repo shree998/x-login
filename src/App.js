@@ -23,11 +23,11 @@ function App() {
       <header className="App-header">
         <h1>Login Page</h1>
         {loginStatus? 
-        <h2 >Welcome {username}</h2> :
+        <h2 >Welcome, {username}</h2> :
 
         loginStatus == false?
         <>
-         <h2 style={{color: 'red'}}>Invalid uername or password</h2>
+         <h2 style={{color: 'red'}}>Invalid username or password</h2>
         <form>
           <label>
             Username:
